@@ -3,6 +3,7 @@ import styles from './Footer.module.css';
 import { BsLinkedin, BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 function Footer() {
+  console.log("check");
   return (
     <div>
       <div className={styles.footer}>
